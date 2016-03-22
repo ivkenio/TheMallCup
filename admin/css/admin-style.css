@@ -1,0 +1,77 @@
+/* 
+    Document   : admin-style
+    Created on : Jun 5, 2016, 9:46:45 AM
+    Author     : ivelin
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+div.alert {
+    font-size: 1.5em;
+}
+
+.box {
+    background: #000;
+    margin-top: 1em;
+    padding: 10px;
+}
+ input[type='text'],   input[type='email'] {
+    width: 100% !important;
+    font-size: 16px !important;
+}
+.input-group-btn:last-child>.btn {
+    line-height: 11px;
+}
+.input-group-btn:first-child>.btn {
+    line-height: 11px;
+}
+.input-group-btn:last-child>.btn .glyphicon {
+    line-height: 9px !important;
+    margin-right: 0px;
+}
+.input-group-btn:first-child>.btn .glyphicon {
+    line-height: 9px !important;
+    margin-right: 0px;
+}
+.group-remove-button .glyphicon {
+    margin-right: 0 !important;
+}
+.group-remove-button {
+    margin-left: 10px;
+}
+.btn .glyphicon {
+    margin-right: 0 !important;
+}
+.group-change-button {
+    margin-left: 10px;
+}
+table tfoot tr td {
+    border-bottom: 0 !important;
+}
+small {
+    text-transform: initial;
+    font-size: 0.8em;
+    font-weight: normal;
+}
+select {
+    color: #000;
+}
+
+button[type="submit"] {
+    background: #ffcd02;
+    color: #000;
+    border: none;
+}
+button[type="submit"]:hover {
+    background: #ffcd02;
+    color: #000;
+    opacity: 0.8;
+}
+
+.label.label-danger{
+	font-size: 16px;
+    margin-top: 15px;
+    float: left;
+	margin-bottom:100px;
+}
